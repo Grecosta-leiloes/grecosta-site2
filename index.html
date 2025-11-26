@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GRECOSTA LEILÕES</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <!-- Top / Nav -->
+  <nav class="nav" id="top">
+  <div class="nav-inner">
+    <img src="logo.png" alt="Grecosta Leilões - logo" class="nav-logo">
+    <ul class="nav-links">
+      <li><a href="#institucional">Institucional</a></li>
+      <li><a href="#catalogo">Catálogo</a></li>
+      <li><a href="#prox-leiloes">Próximos Leilões</a></li>
+      <li><a href="#diferenciais">Diferenciais</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+  </div>
+</nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="brand">GRECOSTA LEILÕES</h1>
+      <p class="tagline">Transparência e confiança em todas as etapas dos nossos leilões.</p>
+      <a class="btn-primary" href="#institucional">SAIBA MAIS</a>
+    </div>
+  </header>
+
+  <!-- INSTITUCIONAL -->
+  <section id="institucional" class="section institucional">
+    <div class="container">
+      <h2>Sobre o Leilão</h2>
+      <p class="lead">
+        A Grecosta Leilões se dedica a realizar leilões com transparência, ética e eficiência.
+        Com uma equipe experiente e comprometida, nossa missão é proporcionar serviços de alta qualidade e garantir a confiança de nossos clientes.
+      </p>
+
+      <div class="history">
+        <div class="history-item">
+          <h3>Missão</h3>
+          <p>Realizar processos leais e acessíveis, garantindo segurança jurídica e transparência.</p>
+        </div>
+        <div class="history-item">
+          <h3>Visão</h3>
+          <p>Ser referência regional em leilões com tecnologia e atendimento humano de excelência.</p>
+        </div>
+        <div class="history-item">
+          <h3>Valores</h3>
+          <p>Ética, transparência, respeito ao cliente e eficiência operacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS / EXPERIÊNCIA -->
+  <section class="section stats">
+    <div class="container">
+      <h2>Nossa Experiência</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="number">15</span>
+          <p class="stat-caption">Anos de experiência</p>
+        </div>
+        <div class="stat">
+          <span class="number">50+</span>
+          <p class="stat-caption">Leilões realizados</p>
+        </div>
+        <div class="stat">
+          <span class="number">1500+</span>
+          <p class="stat-caption">Lotes disponíveis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOGO -->
+  <section id="catalogo" class="section catalogo">
+    <div class="container">
+      <h2>Catálogo de Lotes</h2>
+
+      <div class="filters">
+        <!-- filtros simples (funcionais via classe/data) -->
+        <button class="filter active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="veiculos">Veículos</button>
+        <button class="filter" data-filter="imoveis">Imóveis</button>
+        <button class="filter" data-filter="arte">Arte</button>
+      </div>
+
+      <div class="catalog-grid" id="catalog-grid">
+        <!-- Exemplo de cards (substitua por conteúdo real / backend) -->
+        <article class="card" data-category="veiculos">
+          <div class="thumb" style="background-image:url('');"></div>
+          <h3>Lote 001 — Caminhonete SUV</h3>
+          <p class="card-meta">Disponível • Avaliação: R$ 48.000</p>
+          <a class="btn-ghost" href="#">VER MAIS DETALHES</a>
+        </article>
+
+        <article class="card" data-category="arte">
+          <div class="thumb" style="background-image:url('');"></div>
+          <h3>Lote 012 — Quadro de Arte</h3>
+          <p class="card-meta">Disponível • Avaliação: R$ 3.000</p>
+          <a class="btn-ghost" href="#">VER MAIS DETALHES</a>
+        </article>
+
+        <article class="card" data-category="imoveis">
+          <div class="thumb" style="background-image:url('');"></div>
+          <h3>Lote 054 — Apartamento 2 quartos</h3>
+          <p class="card-meta">Vendido</p>
+          <a class="btn-ghost" href="#">VER MAIS DETALHES</a>
+        </article>
+
+        <!-- repita / substitua conforme necessário -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PRÓXIMOS LEILÕES -->
+  <section id="prox-leiloes" class="section prox-leiloes">
+    <div class="container">
+      <h2>Próximos Leilões</h2>
+
+      <div class="events">
+        <div class="event">
+          <h3>Leilão de Veículos</h3>
+          <p class="small">10 de Dezembro de 2025</p>
+          <a href="#" class="btn-small">Ver edital</a>
+        </div>
+
+        <div class="event">
+          <h3>Leilão de Imóveis</h3>
+          <p class="small">18 de Dezembro de 2025</p>
+          <a href="#" class="btn-small">Ver edital</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section id="diferenciais" class="section diferenciais">
+    <div class="container">
+      <h2>Nossos Diferenciais</h2>
+      <ul class="diff-list">
+        <li>Equipe treinada e qualificada</li>
+        <li>Transparência em todo o processo</li>
+        <li>Atendimento e suporte dedicado aos proponentes</li>
+        <li>Documentação e editais disponíveis online</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section contato">
+    <div class="container">
+      <h2>Contato</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5599999999999" target="_blank">(99) 99999-9999</a></p>
+          <p><strong>E-mail:</strong> <a href="mailto:contato@grecosta.com">contato@grecosta.com</a></p>
+          <p><strong>Endereço:</strong> Rua Exemplo, 123 — Cidade/UF</p>
+        </div>
+
+        <form id="contact-form" class="contact-form" action="#" method="post">
+          <label>
+            <input name="nome" type="text" placeholder="Nome" required>
+          </label>
+
+          <label>
+            <input name="email" type="email" placeholder="E-mail" required>
+          </label>
+
+          <label>
+            <textarea name="mensagem" placeholder="Mensagem" rows="5" required></textarea>
+          </label>
+
+          <button class="btn-primary" type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <nav class="foot-nav">
+        <a href="#institucional">Institucional</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#prox-leiloes">Próximos Leilões</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="legal">
+        <p>Grecosta Leilões • CNPJ: 00.000.000/0000-00</p>
+        <p>© <span id="year"></span> Todos os direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
